@@ -194,8 +194,8 @@ autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
 baper = 'ABX STORE'
-apiku = 'https://zeeoneofc.github.io/'
-gc_wa_lu = 'https://google.com' //klo gk punya gc wa gk usah di ganti 👍
+apiku = 'https://github.com/AndhikaNations'
+gc_wa_lu = 'https://chat.whatsapp.com/Ir0zGt1COhSJDpkhcX52SF' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
@@ -2305,7 +2305,7 @@ let papako = [{
 				}
 			let ch = await getBuffer(chatt)
 			try{
-			hit_total = await fetchJson('https://api.countapi.xyz/hit/api-alphabot.herokuapp.com/visits')
+			hit_total = await fetchJson('https://api.countapi.xyz/hit/api-abx.herokuapp.com/visits')
 			} catch {
 				hit_total = { 
 					value : "-"
@@ -2429,6 +2429,33 @@ listMsg = {
                            {
                               "title": "location",
                               "rowId": "setmenu location"
+                           }
+                        ]
+                     }],
+ listType: 1
+}
+if (!listhades.includes(q)) return alpha.sendMessage(from, listMsg, MessageType.listMessage, {quoted: mek})
+//reply(`*Example :*${enter}•${prefix + command} location\n•${prefix + command} document\n•${prefix + command} list\n•${prefix + command} troli\n•${prefix + command} troli2\n•${prefix + command} katalog\n•${prefix + command} katalog2\n`)
+typemenu = q
+reply(lang.success())
+break
+case 'toko':
+const listhades = ['pulsa', 'topup', 'saldo pe-wallet']
+listMsg = {
+ buttonText: 'ABX STORE',
+ footerText: `© ${ownername}`,
+ description: `berikut list item yang tersedia ditoko kami`,
+ sections: [
+                     {
+                      "title": `ABX STORE`,
+ rows: [
+                          {
+                              "title": "pulsa",
+                              "rowId": "pulsa all operator"
+                           },
+                           {
+                              "title": "troli",
+                              "rowId": "top up game"
                            }
                         ]
                      }],
