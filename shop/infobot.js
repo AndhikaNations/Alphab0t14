@@ -30,10 +30,16 @@ return `ℒ⃝👾 *B O T  S T A T I S T I C*
 ♈ YouTube : youtube.com/c/zeeoneofc
 ♉ Github : https://github.com/AndhikaNations
 ♊ Instagram : instagram.com/munje_eobseoyo_
-♋ Tiktok : gak ada
-♌ Telegram : gak ada
-♎ Ch Telegram : gak ada
 ♏ WhatsApp : wa.me/62895371897020
+
+*PERHATIAN!*
+_JADWAL TUTUP BOT!_
+*PUKUL* : 12.00-14.00 Wib
+*PUKUL* : 15.30-16.00 Wib
+*PUKUL* : 18.00-18.30 Wib
+*PUKUL* : 22.00- 05.00 Wib
+
+*Bot juga perlu istirahat!😇
 `}
 
 exports.infobot = infobot
